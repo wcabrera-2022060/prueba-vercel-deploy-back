@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 <head>
 <title>NodeJs y Express en Vercel</title>
 </head>
-< body>
+<body>
 <h1>Soy un proyecto back end
 en vercel</h1>
 </body>
