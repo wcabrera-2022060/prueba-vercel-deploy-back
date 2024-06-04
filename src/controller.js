@@ -2,7 +2,7 @@ export const home = (req, res) => {
   res.send('Hello from API')
 }
 
-export const api = (req, res) => {
+export const getApi = (req, res) => {
   const htmlResponse = `
 <html>
 <head>

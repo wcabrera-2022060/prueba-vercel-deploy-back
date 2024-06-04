@@ -1,9 +1,9 @@
 import { Router } from 'express'
-import { api, home } from './controller.js'
+import { getApi, home } from './controller.js'
 
 const api = Router()
 
 app.get('/', home)
-app.get('/api', api)
+app.get('/api', getApi)
 
 export default api
