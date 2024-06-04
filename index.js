@@ -4,7 +4,7 @@ const app = express()
 
 const port = process.env.PORT || 3000
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   const htmlResponse = `
 <html>
 <head>
@@ -18,7 +18,7 @@ en vercel</h1>
   res.send(htmlResponse)
 })
 
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
   res.send('Hello from API')
 })
 
