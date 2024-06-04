@@ -3,7 +3,7 @@ import { getApi, home } from './controller.js'
 
 const api = Router()
 
-app.get('/', home)
-app.get('/api', getApi)
+api.get('/', home)
+api.get('/api', getApi)
 
 export default api
